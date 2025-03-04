@@ -1,0 +1,11 @@
+.select{
+    background: none;
+    border: none;
+    margin-left: 1vw;
+    width: 18vw;
+    height: 7vh;
+    padding-left: 1vw;
+    font-size: large;
+    font-weight: 500;
+    color: black;
+}

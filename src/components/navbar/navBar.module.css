@@ -1,0 +1,61 @@
+.div {
+    background-color: #eff1f3;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    /* padding: 0 1vw; */
+    /* width: 100%; */
+    /* justify-content: space-between; */
+}
+
+.input {
+    margin-left: 1vw;
+    width: 18vw;
+    height: 6.5vh;
+    padding-left: 1vw;
+    font-size: large;
+    font-weight: 500;
+    color: black;
+    border: 2px solid black;
+}
+
+
+.wishlistIcon {
+    padding: 10px;
+}
+
+
+.login {
+    text-decoration: underline;
+    padding-left: 1vw;
+}
+
+.sellBtn {
+    height: 40px;
+    width: 60px;
+    padding-left: 1vw;
+}
+.right{
+    background-color: #eff1f3;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    padding: 0 1vw;
+    /* width: 100%; */
+}
+
+
+@media (max-width: 640px) {
+    .input, .searchBox {
+        display: none; 
+    }
+}
+
+@media (max-width: 640px) {
+    .right {
+        margin-left: auto; 
+        /* justify-content: space-between; */
+        gap: 3vw;
+        padding-right: 2vw;
+    }
+}
