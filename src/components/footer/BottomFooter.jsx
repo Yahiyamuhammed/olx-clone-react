@@ -5,9 +5,9 @@ function BottomFooter() {
   return (
     <div className={styles.bottomFooter}>
       <div className={styles.footerContainer}>
-        {/* Logos & Links */}
+        
         <div className={styles.logos}>
-          {/* First Logo */}
+        
           <div className={styles.logoItem}>
             <img
               src="https://statics.olx.in/external/base/img/cartrade/logo/cartrade_tech.svg?v=1"
@@ -16,10 +16,10 @@ function BottomFooter() {
             />
           </div>
 
-          {/* Vertical Line */}
+          
           <div className={styles.verticalLine}></div>
 
-          {/* Remaining Logos */}
+          
           <div className={styles.logoItem}>
             <img
               src="https://statics.olx.in/external/base/img/cartrade/logo/olx.svg?v=1"
@@ -65,7 +65,7 @@ function BottomFooter() {
           </div>
         </div>
 
-        {/* Copyright & Links */}
+       
         <div className={styles.footerBottom}>
           <section className={styles.rights}>All rights reserved © 2006-2025 OLX</section>
           <section className={styles.links}>

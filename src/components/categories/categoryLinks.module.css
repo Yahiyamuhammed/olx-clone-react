@@ -1,8 +1,8 @@
 .navContainer {
     display: flex;
-    justify-content: space-between; /* Equal spacing */
+    justify-content: space-between;
     align-items: center;
-    gap: 20px; /* Adjust space between items */
+    gap: 20px; 
     padding: 10px 0;
     /* max-width: 100%; */
     overflow: hidden;
@@ -14,10 +14,10 @@
     font-size: 16px;
     /* font-weight: bold; */
     color: #333;
-    /* transition: color 0.3s ease; */
+    
   }
   
   .navItem:hover {
-    color: #007bff; /* Blue color on hover */
+    color: #007bff; 
   }
   

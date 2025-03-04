@@ -62,7 +62,7 @@
     text-decoration: underline;
   }
   
-  /* Responsive */
+ 
   @media only screen and (max-width: 1280px) {
     .bottomFooter {
       padding: 16px;

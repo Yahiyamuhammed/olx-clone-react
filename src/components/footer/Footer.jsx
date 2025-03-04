@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.container}>
-        {/* Popular Locations */}
+       
         <div className={styles.section}>
           <h4>Popular Locations</h4>
           <ul>
@@ -17,7 +17,7 @@ function Footer() {
           </ul>
         </div>
 
-        {/* Trending Locations */}
+       
         <div className={styles.section}>
           <h4>Trending Locations</h4>
           <ul>
@@ -28,7 +28,7 @@ function Footer() {
           </ul>
         </div>
 
-        {/* About Us */}
+        
         <div className={styles.section}>
           <h4>About Us</h4>
           <ul>
@@ -40,7 +40,7 @@ function Footer() {
           </ul>
         </div>
 
-        {/* Legal & Privacy */}
+        
         <div className={styles.section}>
           <h4>Legal & Privacy</h4>
           <ul>
@@ -48,11 +48,11 @@ function Footer() {
           </ul>
         </div>
 
-        {/* Follow Us */}
+       
         <div className={styles.section}>
           <h4>Follow Us</h4>
           
-          {/* Social Media Icons */}
+          
           <div className={styles.socialIcons}>
             <FaFacebook className={styles.icon} />
             <FaInstagram className={styles.icon} />
@@ -60,7 +60,7 @@ function Footer() {
             <FaYoutube className={styles.icon} />
           </div>
 
-          {/* App Store & Play Store Images */}
+          
           <div className={styles.appStores}>
             <img
               src="https://statics.olx.in/external/base/img/playstore.webp"  // Replace with actual image path

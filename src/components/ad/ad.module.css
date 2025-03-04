@@ -1,18 +1,18 @@
 .imageWrapper {
-    width: 90%; /* Stretches horizontally */
-    height: 300px; /* Fixed height */
-    background-color: #eff1f3; /* Background color */
+    width: 90%;
+    height: 300px;
+    background-color: #eff1f3; 
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden; /* Prevents overflow */
+    overflow: hidden; 
     margin-left: 5vw;
     margin-right: 5vw;
   }
   
   .stretchedImage {
-    width: 80%; /* Stretch horizontally */
-    height: 90%; /* Maintain fixed height */
+    width: 80%;
+    height: 90%;
     object-fit: cover;
   }
   

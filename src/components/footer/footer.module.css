@@ -32,7 +32,7 @@
     color: #555;
   }
   
-  /* Social Media Icons */
+  
   .socialIcons {
     display: flex;
     gap: 15px;
@@ -50,7 +50,7 @@
     color: #007bff;
   }
   
-  /* App Store & Play Store Images */
+  
   .appStores {
     display: flex;
     flex-direction: column;

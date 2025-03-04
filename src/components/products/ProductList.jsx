@@ -1,7 +1,7 @@
 import React from "react";
 import ProductCard from "./ProductCard";
 import styles from "./productList.module.css";
-import productData from "./productData"; // Import data
+import productData from "./productData"; 
 
 function ProductList() {
     return (
@@ -14,7 +14,7 @@ function ProductList() {
           ))}
         </div>
   
-        {/* Load More Button */}
+       
         <div className={styles.buttonContainer}>
           <button className={styles.loadMore}>Load More</button>
         </div>
