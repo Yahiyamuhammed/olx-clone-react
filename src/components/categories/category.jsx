@@ -11,6 +11,7 @@ export default function (){
                 < CategoryLinks/>
             </div>
             <div style={{backgroundColor:'#eff1f3',height:'3px' }}></div>
+            <div style={{backgroundColor:'white',height:'3px' }}></div>
 
             <div></div>
         </div>
